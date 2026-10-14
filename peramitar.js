@@ -45,3 +45,13 @@ more(40);
 console.log("-------------");
 const hi = 100;
 more(hi);
+const Output = more(200);
+console.log("outpurt is :",Output);
+
+function tentimes(number){
+    const result = number*10;
+    return result;
+}
+
+const output = tentimes(200);
+console.log("outpurt is :",output);
