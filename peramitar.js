@@ -28,3 +28,20 @@ function add(num , num1, num2){
 }
 add(10, 10, 10);
 
+// Argugument 
+
+function more(mony){
+    const duble = mony*2;
+    console.log("The number is : ", mony);
+        console.log("Answer is : ", duble);
+
+}
+
+more(20);
+console.log("-------------------");
+more(30);
+console.log("----------------");
+more(40);
+console.log("-------------");
+const hi = 100;
+more(hi);
