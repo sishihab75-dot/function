@@ -55,3 +55,4 @@ function tentimes(number){
 
 const output = tentimes(200);
 console.log("outpurt is :",output);
+
