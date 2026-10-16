@@ -6,20 +6,16 @@ function returneven(number){
     for(const num of number){
         if( num % 2 == 0 ){
             console.log("Evan number :", num);
+            sum = sum + num;
         }
-        else{
-            console.log("Odd number :", num);
-        }
-
-        sum = sum + num;
       
     }
     console.log("total sum is :",sum);
       if(sum % 2 == 0){
-            console.log("even");
+            console.log("is even");
         }
         else{
-            console.log("odd");
+            console.log("is odd");
         }
     return sum;
 
@@ -27,4 +23,4 @@ function returneven(number){
 
 let valu = [1,2,3,4,5,6,7,8,9];
 const result = returneven(valu);
-console.log( result );
+console.log("The result is :",result);
