@@ -27,4 +27,3 @@ function stringsize(str){
 }
 const valu = stringsize("shihab is a bad man  ");
 console.log("the string size is :", valu);
-
